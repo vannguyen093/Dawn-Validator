@@ -1,0 +1,12 @@
+[data]
+auth = [
+  { email = "xxx@gmail.com", password = "xxx" }
+]
+
+[proxies]
+data=[
+    "http://username:pass@ip:port",
+	"http://username:pass@ip:port",
+	"http://username:pass@ip:port",
+	"http://username:pass@ip:port",
+]
